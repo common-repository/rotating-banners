@@ -1,0 +1,166 @@
+
+/* Metabox Page */
+
+.fmrh_box {
+    display: none;
+}
+.fmrh_box input,
+.fmrh_box textarea
+{
+    width: 100%;
+}
+.fmrh_box > div:first-child {
+    border: none;
+}
+.fmrh_box > div {
+    border-top: 1px solid #e8e8e8;
+    margin-bottom: 15px;
+}
+.fmrh_box > div > p {
+
+}
+.fmrh_box > div > p > label {
+    color: #333333;
+    display: block;
+    font-size: 13px;
+    font-weight: bold;
+    line-height: 1.5em;
+    margin: 0 0 3px;
+    padding: 0;
+    vertical-align: text-bottom;
+}
+.fmrh_box > div > p > label > span {
+    display: block;
+    color: #666666;
+    font-size: 12px;
+    line-height: 1.5em;
+    margin: 0 0 1em;
+    padding: 0;
+    text-shadow: 0 1px 0 #ffffff;
+}
+
+#html, #css, #js {
+    position: relative;
+    width: 100%;
+    height: 300px;
+}
+
+.hidden_inputs {
+    display: none;
+}
+
+
+/* Settings Page */
+.wrap .formdiv {
+    background:#ECECEC;
+    border:1px solid #CCC;
+    padding:0 10px;
+    margin:20px 0;
+    border-radius:5px;
+    -moz-border-radius:5px;
+    -webkit-border-radius:5px;
+}
+.wrap .formdiv span {
+    color: red;
+}
+.red {
+    color: red;
+}
+
+/* Add/Edit Rotating Banner Page */
+/* Initially hide both WP Editor & MetaBox with HTML/CSS/JS */
+body.post-type-fmrb .wrap form#post #post-body #post-body-content #postdivrich,
+body.post-type-fmrb .wrap form#post #post-body .postbox-container#postbox-container-2 {
+    display: none;
+}
+/* Hide the "View Post" link in edit rotating banner page // this isn't available */
+body.post-type-fmrb.post-php .wrap #message > p > a {
+    display: none;
+}
+
+/* jqi states input max 80% */
+.jqistates label input {
+    width: 80%;
+}
+
+/* sortable on settings page */
+.container_change_v2 {
+    display: inline-block;
+}
+.container_change_v2 > div {
+    float: left;
+}
+/* UL */
+.container_change_v2 ol, .container_change_v2 ul {
+    border: 1px solid red;
+    margin: 0 10px 0 0;
+    min-width: 200px;
+    min-height: 20px;
+    padding: 5px 0 40px;
+}
+.container_change_v2 ol { counter-reset: item }
+.container_change_v2 ol li { display: block }
+.container_change_v2 ol li:before { content: counter(item) ". "; counter-increment: item; color: red; }
+/* LI */
+.container_change_v2 ol li, .container_change_v2 ul li {
+    font-size: 1.2em;
+    margin: 8px 8px 8px 25px;
+    padding: 6px;
+    width: 80%;
+}
+.save_btn {
+    display: inline-block;
+    width: 100%;
+}
+.save_btn > div {
+    text-align: center;
+}
+.current_value > span {
+    color: #23282d !important;
+}
+.group_settings_form {
+    margin-bottom: 10px;
+}
+
+.groups_main .add_new_rbg {
+    margin: 10px 0 15px;
+}
+.sortable1_select_container {
+    margin-right: 20px;
+}
+.sortable1_select_container .sortable1_select {
+    width: 100%;
+}
+.hide {
+    display: none;
+}
+
+.drop_here_to_remove {
+    border: 4px dashed #b4b9be;
+    width: 95%;
+    height: 45px;
+    margin: 15px 0;
+}
+.drop_here_to_remove div {
+    width: 100%;
+    height: 100%;
+}
+.drop_here_to_remove p {
+    color: #a0a5aa;
+    margin: -32px 0 0 70px;
+    position: absolute;
+}
+
+#sortable3 {
+    border: medium none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+}
+#sortable3 li {
+    margin: 0;
+    font-size: 0;
+    width: 95.5%;
+    height: 69%;
+}
